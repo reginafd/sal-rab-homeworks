@@ -9,7 +9,7 @@ function addInCartMessage(title, price) {
     message = message + " ";
     message = message + "за";
     message = message + " ";
-    message = producPrice;
+    message = productPrice;
     message = message + " ";
     message = message + "теперь в корзине!";
     console.log(message);
