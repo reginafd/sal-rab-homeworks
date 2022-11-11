@@ -8,12 +8,12 @@ function calcShipping(sum, min, shipping) {
     let shippingSum = sum;
     let shippingPrice = 200;
     let freeShippingMinSum = 700;
-    if (productsSum == 0) {
-        console.log (shippingSum = 0);
-    } else if (productsSum >= freeShippingMinSum) {
-        console.log(shippingSum = 0);
+    if (productsSum == 0 || productsSum >= freeShippingMinSum) {
+        shippingSum = 0
+        console.log (0);
     } else if (productsSum > 0 && productsSum < freeShippingMinSum) {
-        console.log (shippingSum = shippingPrice);
+        shippingSum = shippingPrice
+        console.log (shippingPrice);
     }
      
     // если productsSum равно 0,
