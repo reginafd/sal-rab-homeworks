@@ -5,13 +5,11 @@ function calcShipping(sum, min, shipping) {
 
     // Задание №2.1. Рассчитать доставку
 
-    let shippingSum = sum;
-    let shippingPrice = 200;
-    let freeShippingMinSum = 700;
+    let shippingSum;
     if (productsSum == 0 || productsSum >= freeShippingMinSum) {
         shippingSum = 0;
         console.log(0);
-    } else if (productsSum > 0 && productsSum < freeShippingMinSum) {
+    } else if ((productsSum > 0) && (productsSum < freeShippingMinSum)) {
         shippingSum = shippingPrice;
         console.log(shippingPrice);
     }
