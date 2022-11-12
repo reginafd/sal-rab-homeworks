@@ -5,12 +5,25 @@ function calcShipping(sum, min, shipping) {
 
     // Задание №2.1. Рассчитать доставку
 
+<<<<<<< Updated upstream
     
     let shippingSum;
     if ((productsSum == 0) || (productsSum >= freeShippingMinSum)) {
         console.log(shippingSum = 0);
     } else {
         console.log(shippingSum = shippingPrice);
+=======
+    let shippingSum = sum;
+    let shippingPrice = 200
+    let freeShippingMinSum = 700
+        if (productsSum == 0) {
+        shippingSum = 0;
+        console.log (shippingSum)
+    } else if (productsSum >= freeShippingMinSum) {
+        console.log(shippingSum = 0)
+    } else if (productsSum > 0 && productsSum < freeShippingMinSum) {
+        console.log (shippingSum = shippingPrice)
+>>>>>>> Stashed changes
     }
      
     // если productsSum равно 0,
@@ -34,10 +47,17 @@ function calcDiscount(sum, min, discount) {
 
     // Задание №2.2. Рассчитать скидку
 
+<<<<<<< Updated upstream
     let discountSum;
     let discountMinSum = 700
     if (productsSum >= discountMinSum) {
         discountSum = discountPart * productsSum / 100 : 0
+=======
+    let discountSum = 
+    let discountMinSum = 700
+    if (productsSum >= discountMinSum) {
+        discountSum = discountPart / 100 * productsSum : 0
+>>>>>>> Stashed changes
     }
 
     // создайте переменную discountSum
