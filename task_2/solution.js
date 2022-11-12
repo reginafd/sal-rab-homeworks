@@ -48,15 +48,21 @@ function calcDiscount(sum, min, discount) {
     // Задание №2.2. Рассчитать скидку
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     let discountSum;
     let discountMinSum = 700
     if (productsSum >= discountMinSum) {
         discountSum = discountPart * productsSum / 100 : 0
 =======
+=======
+>>>>>>> Stashed changes
     let discountSum = 
     let discountMinSum = 700
     if (productsSum >= discountMinSum) {
         discountSum = discountPart / 100 * productsSum : 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 
